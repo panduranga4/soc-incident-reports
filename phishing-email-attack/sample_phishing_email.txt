@@ -1,0 +1,13 @@
+From: IT Support <it-support@secure-company-login.com>
+To: employee@company.com
+Subject: Urgent: Reset Your Password Immediately
+
+Dear User,
+
+Your password has expired. Click the link below to reset immediately:
+
+http://secure-company-login.com/reset
+
+Failure to reset may result in account suspension.
+
+IT Support Team
