@@ -1,48 +1,35 @@
-# SOC Incident Investigation Report – Brute Force Login Attempt
 
-## 🧾 1. Incident Summary
-Multiple failed login attempts detected from a single external IP address targeting corporate user accounts.
+# SOC Incident Investigation Portfolio
 
----
+This repository contains simulated SOC Level 1 incident investigations 
+and Python-based log analysis projects.
 
-## 🚨 2. Alert Details
-- Alert Type: Multiple Failed Login Attempts
-- Source IP: 192.168.1.25
-- Target User: admin
-- Failed Attempts: 25 attempts in 3 minutes
-- Timeframe: Outside normal working hours
+## 🔎 Case Studies Included
 
----
+### 1️⃣ Brute Force Login Attempt
+- Detected multiple failed login attempts
+- Log analysis performed
+- MITRE ATT&CK mapped
+- IP blocklisted
 
-## 🔍 3. Investigation Steps
-1. Reviewed authentication logs in SIEM (Splunk – simulated).
-2. Identified repeated failed login attempts from a single IP.
-3. Checked if multiple usernames were targeted.
-4. Verified IP reputation on VirusTotal.
-5. Checked for successful login attempts after failures.
+### 2️⃣ Phishing Email Investigation
+- Suspicious email analyzed
+- Header and link inspection
+- Threat intelligence lookup
+- User awareness action taken
 
----
+## 🛠 Tools Used
+- Splunk (Simulated)
+- Python (Log Parsing)
+- VirusTotal (Threat Intelligence)
+- MITRE ATT&CK Framework
+- Basic SIEM Analysis
 
-## ⚠️ 4. Findings
-- High frequency login attempts within short time.
-- Same IP targeting multiple accounts.
-- No prior malicious history found for the IP.
-- No successful compromise detected.
+## 📂 Structure
+Each folder contains:
+- Detailed incident report
+- Sample logs / artifacts
+- Investigation steps
+- Conclusion
 
----
-
-## 🧠 5. MITRE ATT&CK Mapping
-- T1110 – Brute Force
-- T1078 – Valid Accounts (Potential Risk)
-
----
-
-## 🛡 6. Response Actions Taken
-- Blocklisted source IP on firewall.
-- Reset affected user passwords.
-- Escalated to Tier 2 SOC for monitoring.
-
----
-
-## ✅ 7. Conclusion
-The brute force attempt was identified and contained successfully. No successful compromise occurred.
+This project demonstrates practical SOC level 1 investigation skills.
