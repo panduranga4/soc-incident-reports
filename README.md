@@ -18,6 +18,12 @@ and Python-based log analysis projects.
 - Threat intelligence lookup
 - User awareness action taken
 
+### 3️⃣ Malware Infection Investigation
+- EDR alert analyzed
+- Hash reputation check
+- Process tree investigation
+- Host isolation performed
+
 ## 🛠 Tools Used
 - Splunk (Simulated)
 - Python (Log Parsing)
@@ -33,3 +39,17 @@ Each folder contains:
 - Conclusion
 
 This project demonstrates practical SOC level 1 investigation skills.
+---
+
+## 🛠 Tools & Technologies Used
+- SIEM (Splunk – simulated logs)
+- VirusTotal (Threat Intelligence)
+- MITRE ATT&CK Framework
+- Python (Log Parsing & Automation)
+- Basic EDR Investigation Concepts
+- Basic Network & SIEM Analysis
+
+---
+
+## 🎯 Objective
+Aspiring SOC Level 1 Analyst seeking an entry-level role where I can apply log analysis, threat detection, and incident response fundamentals in a real-world Security Operations Center.
