@@ -1,0 +1,5 @@
+Jan 19 17:01:23 Failed login for admin from 192.168.1.25
+Jan 19 17:01:25 Failed login for admin from 192.168.1.25
+Jan 19 17:01:27 Failed login for user1 from 192.168.1.25
+Jan 19 17:01:30 Failed login for admin from 192.168.1.25
+Jan 19 17:01:32 Successful login for user2 from 10.0.0.5
